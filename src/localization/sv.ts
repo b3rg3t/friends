@@ -2,7 +2,8 @@ export const text  = {
     profile: {
         aboutMe: "Om mig",
         seekingFor: "Söker efter",
-        interests: "Intressen"
+        interests: "Intressen",
+        aboutMeShort: "Kort om mig"
     },
     interests: {
         football: "Fotboll",

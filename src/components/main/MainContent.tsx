@@ -2,6 +2,7 @@ import { AboutMe } from '../profile/AboutMe'
 import { SeekingFor } from '../profile/SeekingFor'
 import { Interests } from '../profile/Interests'
 import { ProfilePic } from '../profile/ProfilePic'
+import { AboutMeShort } from '../profile/AboutMeShort'
 
 export const MainContent = () => {
     return (
@@ -10,6 +11,7 @@ export const MainContent = () => {
           <AboutMe />
           <SeekingFor />
           <Interests />
+          <AboutMeShort />
         </div>
     )
 }
