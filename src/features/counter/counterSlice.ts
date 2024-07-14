@@ -1,5 +1,5 @@
 import type { PayloadAction } from "@reduxjs/toolkit"
-import { createAppSlice } from "../../store/createAppSlice"
+import { createAppSlice } from "../../store/reducers/createAppSlice"
 import type { AppThunk } from "../../store/store"
 import { fetchCount } from "./counterAPI"
 

@@ -2,12 +2,9 @@ import React from "react"
 import { createRoot } from "react-dom/client"
 import { Provider } from "react-redux"
 import { store } from "./store/store"
-import "./index.css"
 import { RouterProvider } from "react-router-dom"
 import { router } from "./router/Routes"
-import "./App.css"
-import { Header } from "./layout/header/Header"
-import { Footer } from "./layout/footer/Footer"
+import "./App.scss"
 
 const container = document.getElementById("root")
 
@@ -17,11 +14,7 @@ if (container) {
   root.render(
     <React.StrictMode>
       <Provider store={store}>
-        <Header />
-        <main >
-          <RouterProvider router={router} />
-        </main>
-        <Footer />
+        <RouterProvider router={router} />
       </Provider>
     </React.StrictMode>,
   )

@@ -1,0 +1,1 @@
+export const contentClassNames = "rounded bg-dark-subtle p-2"

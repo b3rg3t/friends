@@ -1,7 +1,7 @@
+import { MainContent } from "../../components/main/MainContent"
+
 export const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+       <MainContent />
     )
 }
