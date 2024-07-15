@@ -4,7 +4,7 @@ import { Provider } from "react-redux"
 import { store } from "./store/store"
 import { RouterProvider } from "react-router-dom"
 import { router } from "./router/Routes"
-import "./App.scss"
+import "./styles/global.scss"
 
 const container = document.getElementById("root")
 

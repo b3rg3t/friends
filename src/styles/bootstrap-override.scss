@@ -1,0 +1,19 @@
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+  "primary": #244f05,
+  "secondary": rgb(58, 2, 80),
+  "danger": #a40900,
+  "success": green,
+  "info": rgb(166, 29, 13),
+  "warning": rgb(201, 161, 0),
+  "light": #3f5f28,
+  "dark": rgb(2, 42, 7)
+);
+
+// Bootstrap and its default variables
+/*csslint mixed-decls:false */
+@import "node_modules/bootstrap/scss/bootstrap";
